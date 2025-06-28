@@ -96,8 +96,3 @@ Open your browser at [http://127.0.0.1:5000](http://127.0.0.1:5000)
 - Please generate or request the model and dataset files as needed.
 
 ---
-
-## 📧 Contact
-
-**Yamini Mahi Sindhu Mypala**  
-GitHub: [mahisindhu](https://github.com/mahisindhu)
