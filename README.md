@@ -90,6 +90,14 @@ Open your browser at [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ---
 
+---
+
+🎥 Demo Video
+Watch the full working demo here:
+🔗 Pollen Grain Classification - Demo Video
+
+--
+
 ## 📄 Project Notes
 
 - GitHub restricts pushing files larger than **100MB**, so `model.h5` is **excluded** from version control.
