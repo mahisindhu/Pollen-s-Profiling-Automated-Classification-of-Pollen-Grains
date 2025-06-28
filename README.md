@@ -1,50 +1,61 @@
-# Pollen-s-Profiling-Automated-Classification-of-Pollen-Grains
-This project focuses on automating the classification of pollen grains using deep learning. It includes a trained CNN model and a Flask web application to provide an interactive interface for users to upload images and receive predictions.
+🌾 Pollen Profiling: Automated Classification of Pollen Grains
+This project 🌱 focuses on the automated classification of pollen grains using a deep learning model. It aims to help researchers and botanists accurately identify different pollen species 🧬 using image-based analysis.
 
-Features:
-
-Image classification using Convolutional Neural Networks (CNN)
-
-Preprocessed dataset of pollen grain images
-
-Flask web interface for real-time predictions
-
-Label encoding for consistent class identification
-
-Upload and predict image classes with confidence scores
-
-Project Structure:
+📁 Project Structure
 
 pollen_classification/
-├── app.py                       # Flask web application
-├── model.h5                    # Trained Keras model (ignored in repo)
-├── label_encoder.pkl           # Label encoder for class names (ignored in repo)
-├── dataset/                    # Pollen image dataset (ignored in repo)
-├── templates/                  # HTML templates (index, predict, logout)
-├── static/                     # Static files (CSS, uploaded images)
-├── pollen_grain_classification.ipynb  # Model training notebook
-└── .gitignore                  # Files/folders to exclude from version control
+├── app.py                          # 🧠 Flask web app
+├── model.h5                        # 🤖 Trained Keras model (gitignored)
+├── label_encoder.pkl               # 🏷️ Label encoder (gitignored)
+├── dataset/                        # 🖼️ Pollen image dataset (gitignored)
+├── templates/                      # 🧩 HTML files (index, predict, logout)
+├── static/                         # 🎨 Static assets (CSS, images)
+├── pollen_grain_classification.ipynb  # 📓 Model training notebook
+└── .gitignore                      # 🚫 Files ignored by Git
+
+🧠 Model Overview
+This project uses a Convolutional Neural Network (CNN) to classify images of pollen grains. The model is trained on a labeled dataset of pollen images and predicts the class along with confidence scores 📊.
+
+🌐 Web Interface (Flask)
+The user-friendly web app offers:
+
+🏠 Home page for uploading images
+
+🔍 Prediction with class name and confidence
+
+🔁 Logout and navigation
+
+🚫 Git-ignored Files
+To keep the repo clean and within GitHub's limits:
+
+model.h5 (⚠️ >100MB)
+
+label_encoder.pkl (🔐 Serialization)
+
+dataset/ (📂 Training images)
+
+Python installer & __pycache__/ (⚙️)
+
+🚀 How to Run
+🧬 Clone the repo:
+
+git clone https://github.com/mahisindhu/Pollen-profiling.git
+cd Pollen-profiling
+📦 Install dependencies:
+
+🏃 Run the Flask app:
 
 
-Instructions to Run:
+set FLASK_APP=app.py
+set FLASK_ENV=development
+flask run
+🔗 Open in browser:
+http://127.0.0.1:5000
+✅ Requirements
+Python 3.10+
 
-Clone the repository and navigate to the directory.
+Flask 🌐
 
-Install required Python packages.
+TensorFlow/Keras 🤖
 
-Place model.h5 and label_encoder.pkl in the root folder.
-
-Run app.py using Flask.
-
-Open the browser at http://127.0.0.1:5000 to use the app.
-
-Note:
-The model file (model.h5) exceeds GitHub’s upload limit and must be added manually.
-
-Applications:
-
-Botanical research
-
-Pollen classification automation
-
-Image-based taxonomy tools
+NumPy, scikit-learn 📚
